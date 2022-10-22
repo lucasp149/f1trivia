@@ -31,10 +31,10 @@ export default function Inicio() {
             <h1>WELCOME</h1>
             <h2 style={{minHeight: "40px"}}>{name}</h2>
             <div className={styles.box}>
-                <div className={styles.carta}  onMouseEnter={()=>handleEnter("Max Verstappen")} onMouseLeave={()=>handleEnter("")} id="max" onClick={handleClick} style={{backgroundImage: "url(/max.avif)"}}></div>
-                <div className={styles.carta} onMouseEnter={()=>handleEnter("Charles Leclerc")} onMouseLeave={()=>handleEnter("")} id="leclerc" onClick={handleClick} style={{backgroundImage: "url(/charles.jpg)"}}></div>
-                <div className={styles.carta} onMouseEnter={()=>handleEnter("Lewis Hamilton")} onMouseLeave={()=>handleEnter("")} id="hamilton" onClick={handleClick} style={{backgroundImage: "url(/lewis.jpg)"}}></div>
-                <div className={styles.carta} onMouseEnter={()=>handleEnter("Fernando Alonso")} onMouseLeave={()=>handleEnter("")} id="alonso" onClick={handleClick} style={{backgroundImage: "url(/alonso.jpg)"}}></div>
+                <div className={styles.carta}  onMouseEnter={()=>handleEnter("Max Verstappen")} onMouseLeave={()=>handleEnter("")} id="max" onClick={handleClick} style={{backgroundImage: "url(./max.avif)"}}></div>
+                <div className={styles.carta} onMouseEnter={()=>handleEnter("Charles Leclerc")} onMouseLeave={()=>handleEnter("")} id="leclerc" onClick={handleClick} style={{backgroundImage: "url(./charles.jpg)"}}></div>
+                <div className={styles.carta} onMouseEnter={()=>handleEnter("Lewis Hamilton")} onMouseLeave={()=>handleEnter("")} id="hamilton" onClick={handleClick} style={{backgroundImage: "url(./lewis.jpg)"}}></div>
+                <div className={styles.carta} onMouseEnter={()=>handleEnter("Fernando Alonso")} onMouseLeave={()=>handleEnter("")} id="alonso" onClick={handleClick} style={{backgroundImage: "url(./alonso.jpg)"}}></div>
             </div>
         </div>
     )

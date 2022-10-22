@@ -1,4 +1,10 @@
-WE ARE HERE IN PREMASTER <---
+UPDATE
+
+---> Using HashRouter instead BrowserRouter
+
+---> adding a "." before images patchs
+
+---> correct the favicon and iphone logos
 
 ## Estructura del juego
 
@@ -13,8 +19,9 @@ En la primer página se elige el personaje
 
 - Utilización de las flechas del teclado para el movimiento del personaje
 
-### Posibles mejoras
 
+
+### Posibles mejoras
 
 - Se podrían generar transiciones más interesantes entre un nivel y el siguiente.
 

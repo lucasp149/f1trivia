@@ -8,32 +8,32 @@ export default function Context({ children }) {
 
   const data = [{
     name: "Max Verstappen",
-    foto: "/max.avif",
-    car: "/maxC.png",
-    helmet: "/maxH.jpg",
+    foto: "./max.avif",
+    car: "./maxC.png",
+    helmet: "./maxH.jpg",
     id: "max",
     gif: "fVA9swBXrITliGnKhK"
   }, {
     name: "Charles Leclerc",
-    foto: "/charles.jpg",
-    car: "/leclercC.png",
-    helmet: "/leclercH.webp",
+    foto: "./charles.jpg",
+    car: "./leclercC.png",
+    helmet: "./leclercH.webp",
     id: "charles",
     gif: "GG431sHab0nNAxUWtb"
   },
   {
     name: "Lewis Hamilton",
-    foto: "/lewis.jpg",
-    car: "/hamiltonC.png",
-    helmet: "/lewisH.jpg",
+    foto: "./lewis.jpg",
+    car: "./hamiltonC.png",
+    helmet: "./lewisH.jpg",
     id: "lewis",
     gif: "W1qHCSnVxt5wisTekN"
   },
   {
     name: "Fernando Alonso",
-    foto: "/alonso.jpg",
-    car: "/alonsoC.png",
-    helmet: "/alonsoH.jpg",
+    foto: "./alonso.jpg",
+    car: "./alonsoC.png",
+    helmet: "./alonsoH.jpg",
     id: "alonso",
     gif: "8F94ADlcSJIvw86evZ"
   }

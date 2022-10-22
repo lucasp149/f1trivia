@@ -3,10 +3,9 @@ import Level1 from './pages/level1';
 import Level2 from './pages/level2';
 import Level3 from './pages/level3';
 import Inicio from './pages/inicio';
-import Level1BIS from './pages/level1BIS';
 import End from './pages/end';
 import React from 'react';
-import { Route, Routes, BrowserRouter, useLocation } from "react-router-dom";
+import { HashRouter, Route, Routes, BrowserRouter, useLocation } from "react-router-dom";
 import Context from './components/context';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
@@ -15,7 +14,7 @@ function App() {
   // const location = useLocation();
   return (
     <Context>
-      <BrowserRouter>
+      <HashRouter>
         <TransitionGroup>
           <CSSTransition /*key={location.key}*/ timeout={2000} classNames="fade">
             <Routes>
@@ -28,7 +27,7 @@ function App() {
             </Routes>
           </CSSTransition>
         </TransitionGroup>
-      </BrowserRouter>
+        </HashRouter>
     </Context>
   );
 }
