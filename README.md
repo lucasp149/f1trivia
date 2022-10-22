@@ -1,3 +1,5 @@
+WE ARE HERE <---
+
 ## Estructura del juego
 
 En la primer página se elige el personaje 
