@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/f1trivia/static/css/main.4e92d01a.css",
-    "main.js": "/f1trivia/static/js/main.6f87d35f.js",
+    "main.css": "/f1trivia/static/css/main.d2aa8c2b.css",
+    "main.js": "/f1trivia/static/js/main.23c33787.js",
     "static/js/787.f6b4b89a.chunk.js": "/f1trivia/static/js/787.f6b4b89a.chunk.js",
     "static/media/wheel.png": "/f1trivia/static/media/wheel.16613d70ef755e4d89cb.png",
     "index.html": "/f1trivia/index.html",
-    "main.4e92d01a.css.map": "/f1trivia/static/css/main.4e92d01a.css.map",
-    "main.6f87d35f.js.map": "/f1trivia/static/js/main.6f87d35f.js.map",
+    "main.d2aa8c2b.css.map": "/f1trivia/static/css/main.d2aa8c2b.css.map",
+    "main.23c33787.js.map": "/f1trivia/static/js/main.23c33787.js.map",
     "787.f6b4b89a.chunk.js.map": "/f1trivia/static/js/787.f6b4b89a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e92d01a.css",
-    "static/js/main.6f87d35f.js"
+    "static/css/main.d2aa8c2b.css",
+    "static/js/main.23c33787.js"
   ]
 }
